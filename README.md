@@ -18,4 +18,4 @@ client.function(params);
 
 # Docs
 
-* [Client]('https://github.com/Rgk2k7/discord-bot-master/blob/main/Docs/Client.md')
+* [Client](https://github.com/Rgk2k7/discord-bot-master/blob/main/Docs/Client.md)
