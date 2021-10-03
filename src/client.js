@@ -1,10 +1,14 @@
+const chalk = require('chalk');
+
 class Client {
-  constructor(name) {
-    if(!name) {
-      console.log('You must provide a name for your client!');
-    } else {
-      this.name = name;
+  randInt(max) {
+    if(!max){
+      return console.log(chalk.red('Error: You must provide a parameter for the limit the number can be generated to!'))
     }
+
+    let int = Math.floor(Math.random() * max);
+
+    return int;
   }
 }
 
